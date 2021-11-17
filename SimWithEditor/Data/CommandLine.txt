@@ -1,0 +1,1 @@
+Scripts/Editor.as -w -s -language ru -scene C:\murIDE\simulator\Data\Scenes

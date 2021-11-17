@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1" />
+	<attribute name="Smoothing Constant" value="50" />
+	<attribute name="Snap Threshold" value="5" />
+	<attribute name="Elapsed Time" value="0" />
+	<attribute name="Next Replicated Node ID" value="31" />
+	<attribute name="Next Replicated Component ID" value="54" />
+	<attribute name="Next Local Node ID" value="16777242" />
+	<attribute name="Next Local Component ID" value="16777528" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="" />
+	<component type="Octree" id="1" />
+	<component type="DebugRenderer" id="2" />
+	<component type="Zone" id="5">
+		<attribute name="Bounding Box Min" value="-3000 -3000 -3000" />
+		<attribute name="Bounding Box Max" value="3000 3000 3000" />
+		<attribute name="Ambient Color" value="0.5 0.5 0.5 1" />
+		<attribute name="Fog Color" value="0.4 0.5 0.8 1" />
+	</component>
+	<component type="PhysicsWorld" id="14">
+		<attribute name="Gravity" value="0 0.3 0" />
+	</component>
+	<node id="6">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="line" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-0.0930934 0.0808768 17.699" />
+		<attribute name="Rotation" value="0.5 0.5 -0.5 0.5" />
+		<attribute name="Scale" value="30 30 30" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="7">
+			<attribute name="Model" value="Model;Models/line.mdl" />
+			<attribute name="Material" value="Material;Materials/Orange.xml" />
+		</component>
+	</node>
+	<node id="8">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="line" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-2.81616 0 30.3631" />
+		<attribute name="Rotation" value="0.353553 0.353553 -0.612372 0.612372" />
+		<attribute name="Scale" value="30 30 30" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="9">
+			<attribute name="Model" value="Model;Models/line.mdl" />
+			<attribute name="Material" value="Material;Materials/Orange.xml" />
+		</component>
+	</node>
+	<node id="10">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="triangle" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-8.04181 0 40.3375" />
+		<attribute name="Rotation" value="0.707107 0.707107 8.42937e-08 -8.42936e-08" />
+		<attribute name="Scale" value="30 30 30" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="11">
+			<attribute name="Model" value="Model;Models/triangle.mdl" />
+			<attribute name="Material" value="Material;Materials/01 - Default.xml;Materials/White.xml" />
+		</component>
+	</node>
+	<node id="11">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="ring" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-7.4842 9.91092 39.5666" />
+		<attribute name="Rotation" value="0.707107 0.707107 0 0" />
+		<attribute name="Scale" value="40 40 40" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="12">
+			<attribute name="Model" value="Model;Models/ring.mdl" />
+			<attribute name="Material" value="Material;Materials/Blue.xml" />
+		</component>
+		<component type="RigidBody" id="19">
+			<attribute name="Physics Rotation" value="0.707107 0.707107 0 0" />
+			<attribute name="Physics Position" value="-7.4842 9.91092 39.5666" />
+		</component>
+		<component type="CollisionShape" id="20">
+			<attribute name="Shape Type" value="TriangleMesh" />
+			<attribute name="Model" value="Model;Models/ring.mdl" />
+		</component>
+	</node>
+	<node id="4">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 -3.94427 7.88854" />
+		<attribute name="Rotation" value="0.984808 0 0.173648 0" />
+		<attribute name="Scale" value="55 40 1" />
+		<attribute name="Variables" />
+		<component type="Light" id="4">
+			<attribute name="Light Type" value="Directional" />
+			<attribute name="Color" value="0.7 0.7 0.7 1" />
+			<attribute name="Brightness Multiplier" value="0.8" />
+			<attribute name="Cast Shadows" value="true" />
+		</component>
+	</node>
+	<node id="19">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="cube2" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="0 -0.3 12.0645" />
+		<attribute name="Rotation" value="0.707107 0.707107 0 0" />
+		<attribute name="Scale" value="500 700 120" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="30">
+			<attribute name="Model" value="Model;Models/cube2.mdl" />
+			<attribute name="Material" value="Material;Materials/DefaultMaterial.xml" />
+		</component>
+		<component type="RigidBody" id="31">
+			<attribute name="Physics Rotation" value="0.707107 0.707107 0 0" />
+			<attribute name="Physics Position" value="0 -0.3 12.0645" />
+		</component>
+		<component type="CollisionShape" id="32">
+			<attribute name="Shape Type" value="TriangleMesh" />
+			<attribute name="Model" value="Model;Models/cube2.mdl" />
+		</component>
+	</node>
+	<node id="21">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Vorota2" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-4.51594 4.65229 6.09555" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.15 0.15 0.15" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="36">
+			<attribute name="Model" value="Model;Models/Vorota2.mdl" />
+			<attribute name="Material" value="Material;Materials/01 - Default.xml;Materials/Green.xml;Materials/OxidRed.xml;Materials/01 - Default.xml" />
+		</component>
+		<component type="RigidBody" id="45">
+			<attribute name="Physics Position" value="-4.51594 4.65229 6.09555" />
+		</component>
+		<component type="CollisionShape" id="46">
+			<attribute name="Shape Type" value="TriangleMesh" />
+			<attribute name="Model" value="Model;Models/Vorota2.mdl" />
+		</component>
+	</node>
+	<node id="22">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="line" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="2.67715 0.0808768 13.3083" />
+		<attribute name="Rotation" value="0.353553 0.353553 -0.612372 0.612372" />
+		<attribute name="Scale" value="30 30 30" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="37">
+			<attribute name="Model" value="Model;Models/line.mdl" />
+			<attribute name="Material" value="Material;Materials/Orange.xml" />
+		</component>
+	</node>
+	<node id="23">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Korzina" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-1.30551 0.454793 24.3374" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.1 0.1 0.1" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="38">
+			<attribute name="Model" value="Model;Models/Korzina.mdl" />
+			<attribute name="Material" value="Material;Materials/White.xml;Materials/OxidRed.xml" />
+		</component>
+		<component type="RigidBody" id="47">
+			<attribute name="Physics Position" value="-1.30551 0.454793 24.3374" />
+		</component>
+		<component type="CollisionShape" id="48">
+			<attribute name="Shape Type" value="TriangleMesh" />
+			<attribute name="Model" value="Model;Models/Korzina.mdl" />
+		</component>
+	</node>
+	<node id="24">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Korzina" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="1.07456 0.454793 24.3374" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="0.1 0.1 0.1" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="39">
+			<attribute name="Model" value="Model;Models/Korzina.mdl" />
+			<attribute name="Material" value="Material;Materials/White.xml;Materials/Green.xml" />
+		</component>
+		<component type="CollisionShape" id="49">
+			<attribute name="Shape Type" value="TriangleMesh" />
+			<attribute name="Model" value="Model;Models/Korzina.mdl" />
+		</component>
+		<component type="RigidBody" id="50">
+			<attribute name="Physics Position" value="1.07456 0.454793 24.3374" />
+		</component>
+	</node>
+	<node id="25">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="line" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="6.71693 0 36.1463" />
+		<attribute name="Rotation" value="0.696364 0.696364 0.122788 -0.122788" />
+		<attribute name="Scale" value="30 30 30" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="40">
+			<attribute name="Model" value="Model;Models/line.mdl" />
+			<attribute name="Material" value="Material;Materials/Orange.xml" />
+		</component>
+	</node>
+	<node id="26">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="line" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="-2.74164 0 13.9963" />
+		<attribute name="Rotation" value="0.353553 0.353553 0.612372 -0.612372" />
+		<attribute name="Scale" value="30 30 30" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="41">
+			<attribute name="Model" value="Model;Models/line.mdl" />
+			<attribute name="Material" value="Material;Materials/Orange.xml" />
+		</component>
+	</node>
+	<node id="28">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="line" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="1.92645 0 30.4596" />
+		<attribute name="Rotation" value="0.653281 0.653281 -0.270598 0.270598" />
+		<attribute name="Scale" value="30 30 30" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="43">
+			<attribute name="Model" value="Model;Models/line.mdl" />
+			<attribute name="Material" value="Material;Materials/Orange.xml" />
+		</component>
+	</node>
+	<node id="29">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="line" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="1.92645 0 30.4596" />
+		<attribute name="Rotation" value="0.653281 0.653281 -0.270598 0.270598" />
+		<attribute name="Scale" value="30 30 30" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="44">
+			<attribute name="Model" value="Model;Models/line.mdl" />
+			<attribute name="Material" value="Material;Materials/Orange.xml" />
+		</component>
+	</node>
+	<node id="30">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="ShootNew" />
+		<attribute name="Tags" />
+		<attribute name="Position" value="8.73895 6.74958 39.5642" />
+		<attribute name="Rotation" value="0.64344 0.64344 0.293232 -0.293232" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="StaticModel" id="53">
+			<attribute name="Model" value="Model;Models/ShootNew.mdl" />
+			<attribute name="Material" value="Material;Materials/Red.xml;Materials/Yellow.xml" />
+		</component>
+	</node>
+</scene>
