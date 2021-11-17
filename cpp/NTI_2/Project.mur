@@ -1,0 +1,9 @@
+{
+    "description": null,
+    "headers": [
+    ],
+    "name": "NTI_2",
+    "sources": [
+        "main.cpp"
+    ]
+}
