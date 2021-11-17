@@ -1,0 +1,12 @@
+{
+    "description": null,
+    "headers": [
+        "PID_v1.h",
+        "PID.h"
+    ],
+    "name": "NTI_3",
+    "sources": [
+        "main.cpp",
+        "pid.cpp"
+    ]
+}
